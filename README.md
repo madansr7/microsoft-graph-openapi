@@ -1,4 +1,8 @@
-# Microsoft Graph OpenAPI v3.0.1 description
+# Microsoft Graph OpenAPI v3.0.1 description (preview)
+
+## OpenAPI description for Microsoft Graph 
+This repo has the OpenAPI representation for the resources and level 1 relationships in Microsoft Graph, for /v1.0 and /beta. Given the size of the Microsoft Graph API, this is not a full representation, but a starting point that works for most interoperability scenarios. At this point in time we can’t make it much bigger without breaking tools or usability. 
+Our plans are to expose the OpenAPI descriptions for Microsoft Graph as part of the service itself, in a similar way that we expose the EDM at https://graph.microsoft.com/v1.0/$metadata endpoint. In the meantime we are making this preview version available in this repo for you to evaluate it and share feedback. 
 
 ## Microsoft Graph
 Microsoft Graph is made up of resources connected by relationships. For example, a user can be connected to a group through a memberOf relationship, and to another user through a manager relationship. Your app can traverse these relationships to access these connected resources and perform actions on them through the API.
